@@ -32,6 +32,7 @@
           <e p="FigureCircle.cs" t="Include" />
           <e p="FigureSquare.cs" t="Include" />
           <e p="FigureTriangle.cs" t="Include" />
+          <e p="IsNotFigureException.cs" t="Include" />
         </e>
         <e p="Groups" t="Include">
           <e p="Group.cs" t="Include" />
@@ -51,6 +52,9 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Tests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="FigureCircleTests.cs" t="Include" />
+        <e p="FigureSquareTests.cs" t="Include" />
+        <e p="FigureTriangleTests.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -59,8 +63,6 @@
           </e>
         </e>
         <e p="Tests.csproj" t="IncludeRecursive" />
-        <e p="UnitTest1.cs" t="Include" />
-        <e p="UnitTestFigures.cs" t="Include" />
         <e p="UnitTestGroups.cs" t="Include" />
       </e>
       <e p="WorkTest.sln" t="IncludeFlat" />

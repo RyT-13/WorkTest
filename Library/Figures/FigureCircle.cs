@@ -5,12 +5,22 @@ namespace Library.Figures
     public class FigureCircle : Figure
     {
         private float radius;
-
         public float Radius
         {
             get => radius;
-            set => radius = value < 0 ? 0 : value;
+            set
+            {
+                if (value < 0)
+                {
+                    throw new IsNotFigureException("Radius < 0.");
+                }
+
+                radius = value;
+            }
         }
+        
+        public override float Square => MathF.PI * MathF.Pow(Radius, 2);
+        public override float Perimeter => MathF.PI * 2 * Radius;
 
         public FigureCircle(float radius)
         {
@@ -20,10 +30,9 @@ namespace Library.Figures
         
         public override float Measure()
         {
-            return Square() + Perimetr();
+            return Square + Perimeter;
         }
 
-        public override float Square() => MathF.PI * MathF.Pow(radius, 2);
-        public override float Perimetr() => MathF.PI * 2 * radius;
+
     }
 }
