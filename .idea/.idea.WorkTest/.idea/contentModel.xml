@@ -25,7 +25,7 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
-      <e p="Library" t="IncludeRecursive">
+      <e p="FiguresLib" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Figures" t="Include">
           <e p="Figure.cs" t="Include" />
@@ -34,37 +34,37 @@
           <e p="FigureTriangle.cs" t="Include" />
           <e p="IsNotFigureException.cs" t="Include" />
         </e>
+        <e p="FiguresLib.csproj" t="IncludeRecursive" />
         <e p="Groups" t="Include">
           <e p="Group.cs" t="Include" />
-          <e p="GroupMyltiply.cs" t="Include" />
+          <e p="GroupMultiply.cs" t="Include" />
           <e p="GroupSum.cs" t="Include" />
         </e>
         <e p="IMeasure.cs" t="Include" />
-        <e p="Library.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="Library.AssemblyInfo.cs" t="Include" />
+              <e p="FiguresLib.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
       </e>
-      <e p="packages" t="ExcludeRecursive" />
-      <e p="Tests" t="IncludeRecursive">
+      <e p="FiguresLibTests" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="FigureCircleTests.cs" t="Include" />
+        <e p="FiguresLibTests.csproj" t="IncludeRecursive" />
         <e p="FigureSquareTests.cs" t="Include" />
         <e p="FigureTriangleTests.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="Tests.AssemblyInfo.cs" t="Include" />
+              <e p="FiguresLibTests.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="Tests.csproj" t="IncludeRecursive" />
         <e p="UnitTestGroups.cs" t="Include" />
       </e>
+      <e p="packages" t="ExcludeRecursive" />
       <e p="WorkTest.sln" t="IncludeFlat" />
     </e>
   </component>

@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{EA7C341C-4C85-4567-8B21-A6F35DE760C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{D45E1D82-ADB8-40A1-BE50-90D4CFA603D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLib", "FiguresLib\FiguresLib.csproj", "{D45E1D82-ADB8-40A1-BE50-90D4CFA603D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{1220E98E-A673-4CC5-9CE2-68D0FAAF15EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLibTests", "FiguresLibTests\FiguresLibTests.csproj", "{1220E98E-A673-4CC5-9CE2-68D0FAAF15EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Library;
-using Library.Figures;
-using Library.Groups;
+using FiguresLib;
+using FiguresLib.Figures;
+using FiguresLib.Groups;
 using Microsoft.VisualBasic.CompilerServices;
 
 namespace Application

@@ -24,7 +24,7 @@ E:\PROG\с#\WorkTest\Application\bin\Debug\netcoreapp3.1\Application.runtimeconf
 E:\PROG\с#\WorkTest\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.dev.json
 E:\PROG\с#\WorkTest\Application\bin\Debug\netcoreapp3.1\Application.dll
 E:\PROG\с#\WorkTest\Application\bin\Debug\netcoreapp3.1\Application.pdb
-E:\PROG\с#\WorkTest\Application\bin\Debug\netcoreapp3.1\Library.dll
-E:\PROG\с#\WorkTest\Application\bin\Debug\netcoreapp3.1\Library.pdb
 E:\PROG\с#\WorkTest\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
 E:\PROG\с#\WorkTest\Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
+E:\PROG\с#\WorkTest\Application\bin\Debug\netcoreapp3.1\FiguresLib.dll
+E:\PROG\с#\WorkTest\Application\bin\Debug\netcoreapp3.1\FiguresLib.pdb
