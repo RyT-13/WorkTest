@@ -1,23 +1,22 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "E:\\PROG\\с#\\WorkTest\\Application\\Application.csproj",
+    "projectUniqueName": "/home/ryt/prog/C#/Application/Application.csproj",
     "projectName": "Application",
-    "projectPath": "E:\\PROG\\с#\\WorkTest\\Application\\Application.csproj",
-    "outputPath": "E:\\PROG\\с#\\WorkTest\\Application\\obj\\",
+    "projectPath": "/home/ryt/prog/C#/Application/Application.csproj",
+    "outputPath": "/home/ryt/prog/C#/Application/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "E:\\PROG\\с#\\WorkTest\\Library\\Library.csproj": {
-            "projectPath": "E:\\PROG\\с#\\WorkTest\\Library\\Library.csproj"
+          "/home/ryt/prog/C#/Library/Library.csproj": {
+            "projectPath": "/home/ryt/prog/C#/Library/Library.csproj"
           }
         }
       }
@@ -45,7 +44,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
     }
   }
 }

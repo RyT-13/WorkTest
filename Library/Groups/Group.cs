@@ -2,7 +2,7 @@
 
 namespace Library.Groups
 {
-    public class Group : IMeasure
+    public class Group : IMeasure    //делать абстрактным или не делать...?
     {
         protected List<IMeasure> items = new List<IMeasure>();
 

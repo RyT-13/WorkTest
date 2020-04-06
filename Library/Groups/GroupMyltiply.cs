@@ -4,11 +4,16 @@
     {
         public override float Measure()
         {
-            float measure = 0;
+            if (items.Count == 0)
+            {
+                return 0;
+            }
+            
+            float measure = 1;
             
             foreach (IMeasure item in items)
             {
-                measure += item.Measure();
+                measure *= item.Measure();
             }
 
             return measure;
