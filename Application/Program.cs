@@ -4,7 +4,6 @@ using Library;
 using Library.Figures;
 using Library.Groups;
 using Microsoft.VisualBasic.CompilerServices;
-using System.Drawing;
 
 namespace Application
 {
@@ -16,11 +15,7 @@ namespace Application
             FigureCircle fc = new FigureCircle(1);
             FigureSquare fs = new FigureSquare(3);
             FigureTriangle ft = new FigureTriangle(3, 4, 5);
-            List<String> o = new List<String>();
-
-            Rectangle r = new Rectangle(1, 2, 3, 4);
-            new Exception();
-
+            
             Group gr = new GroupSum();
             gr.Add(fs);
             
