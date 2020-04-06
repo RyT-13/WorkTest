@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_WorkTest.-420748102.00" t="ExcludeRecursive" />
-    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1" t="Include">
+    <e p="C:\Users\ryt13\.nuget\packages\microsoft.net.test.sdk\16.4.0\build\netcoreapp2.1" t="Include">
       <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
     </e>
-    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.api.dll" t="Include" />
-    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" t="Include" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\ryt13\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\ryt13\.nuget\packages\microsoft.testplatform.testhost\16.4.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\ryt13\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.api.dll" t="Include" />
+    <e p="C:\Users\ryt13\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
+    <e p="C:\Users\ryt13\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\ryt13\.nuget\packages\nunit3testadapter\3.15.1\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\ryt13\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ryt13\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_WorkTest.-1749696297.00" t="ExcludeRecursive" />
+    <e p="E:\PROG\с#\WorkTest" t="IncludeFlat">
       <e p="Application" t="IncludeRecursive">
         <e p="Application.csproj" t="IncludeRecursive" />
-        <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -22,8 +23,10 @@
             </e>
           </e>
         </e>
+        <e p="Program.cs" t="Include" />
       </e>
       <e p="Library" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
         <e p="Figures" t="Include">
           <e p="Figure.cs" t="Include" />
           <e p="FigureCircle.cs" t="Include" />
@@ -38,7 +41,6 @@
         </e>
         <e p="IMeasure.cs" t="Include" />
         <e p="Library.csproj" t="IncludeRecursive" />
-        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -47,13 +49,12 @@
           </e>
         </e>
       </e>
+      <e p="packages" t="ExcludeRecursive" />
       <e p="Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
         <e p="FigureCircleTests.cs" t="Include" />
         <e p="FigureSquareTests.cs" t="Include" />
         <e p="FigureTriangleTests.cs" t="Include" />
-        <e p="Tests.csproj" t="IncludeRecursive" />
-        <e p="UnitTestGroups.cs" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -61,9 +62,10 @@
             </e>
           </e>
         </e>
+        <e p="Tests.csproj" t="IncludeRecursive" />
+        <e p="UnitTestGroups.cs" t="Include" />
       </e>
       <e p="WorkTest.sln" t="IncludeFlat" />
-      <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

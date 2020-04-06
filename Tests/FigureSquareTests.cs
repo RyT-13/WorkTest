@@ -61,11 +61,10 @@ namespace Tests
             float lenOfSide = 10;
             FigureSquare square = new FigureSquare(lenOfSide);
             float S = MathF.Pow(lenOfSide, 2);
-            float P = 4 * lenOfSide;
 
             float measure = square.Measure();
 
-            Assert.AreEqual(S+P, measure);
+            Assert.AreEqual(S, measure);
         }
     }
 }

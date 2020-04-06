@@ -1,5 +1,8 @@
 ﻿namespace Library.Groups
 {
+    /// <summary>
+    /// Класс группы, который поэлементно применяет оператор сложения для вычисления меры группы.
+    /// </summary>
     public class GroupSum : Group
     {
         public override float Measure()

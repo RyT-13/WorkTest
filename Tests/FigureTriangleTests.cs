@@ -93,13 +93,12 @@ namespace Tests
             float b = 4;
             float c = 5;
             FigureTriangle triangle = new FigureTriangle(a, b, c);
-            float P = a + b + c;
-            float p = P/2;
+            float p = (a + b + c)/2;
             float S = MathF.Sqrt(p * (p - a) * (p - b) * (p - c));
 
             float measure = triangle.Measure();
 
-            Assert.AreEqual(S+P, measure);
+            Assert.AreEqual(S, measure);
         }
     }
 }

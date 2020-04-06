@@ -8,17 +8,41 @@ namespace Library.Figures
         private float b;
         private float c;
 
+        /// <summary>
+        /// Одна из сторон.
+        /// </summary>
         public float A => a;
 
+        /// <summary>
+        /// Одна из сторон.
+        /// </summary>
         public float B => b;
 
+        /// <summary>
+        /// Одна из сторон.
+        /// </summary>
         public float C => c;
 
+        /// <summary>
+        /// Инициализирует новый экземпляр класса с указанными длинами сторон.
+        /// 
+        /// </summary>
+        /// <param name="a">Длина одной из сторон.</param>
+        /// <param name="b">Длина одной из сторон.</param>
+        /// <param name="c">Длина одной из сторон.</param>
+        /// <exception cref="IsNotFigureException">Выбрасывает, когда фигуру невозможно построить по заданным длинам.</exception>
         public FigureTriangle(float a, float b, float c)
         {
             Redefine(a, b, c);
         }
 
+        /// <summary>
+        /// Позволяет переопределить длины сторон.
+        /// </summary>
+        /// <param name="a">Длина одной из сторон.</param>
+        /// <param name="b">Длина одной из сторон.</param>
+        /// <param name="c">Длина одной из сторон.</param>
+        /// <exception cref="IsNotFigureException">Выбрасывает, когда фигуру невозможно построить по заданным длинам.</exception>
         public void Redefine(float a, float b, float c)
         {
             if (a <= 0 || b <= 0 || c <= 0)
@@ -30,7 +54,7 @@ namespace Library.Figures
             {
                 throw new IsNotFigureException("One of the side more than sum of two others.");
             }
-            
+
             this.a = a;
             this.b = b;
             this.c = c;
@@ -49,7 +73,7 @@ namespace Library.Figures
 
         public override float Measure()
         {
-            return Square + Perimeter;
+            return Square;
         }
     }
 }

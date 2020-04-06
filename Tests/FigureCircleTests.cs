@@ -61,11 +61,10 @@ namespace Tests
             float radius = 10;
             FigureCircle circle = new FigureCircle(radius);
             float S = MathF.PI * MathF.Pow(radius, 2);
-            float P = MathF.PI * 2 * radius;
 
             float measure = circle.Measure();
 
-            Assert.AreEqual(S+P, measure);
+            Assert.AreEqual(S, measure);
         }
     }
 }

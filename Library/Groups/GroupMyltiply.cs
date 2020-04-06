@@ -1,5 +1,8 @@
 ﻿namespace Library.Groups
 {
+    /// <summary>
+    /// Класс группы, который поэлементно применяет оператор умножения для вычисления меры группы.
+    /// </summary>
     public class GroupMyltiply : Group
     {
         public override float Measure()

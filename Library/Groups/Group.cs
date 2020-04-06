@@ -2,40 +2,32 @@
 
 namespace Library.Groups
 {
-    public class Group : IMeasure    //делать абстрактным или не делать...?
+    /// <summary>
+    /// Родительский класс для групп.
+    /// </summary>
+    public abstract class Group : IMeasure
     {
         protected List<IMeasure> items = new List<IMeasure>();
 
-        public virtual float Measure()
-        {
-            float measure = 0;
-            
-            foreach (IMeasure item in items)
-            {
-                measure += item.Measure();
-            }
+        public abstract float Measure();
 
-            return measure;
-        }
-        
+        /// <summary>
+        /// Добавляет элемент в группу.
+        /// </summary>
+        /// <param name="item">Элемент, имплементирующий интерфейс IMeasure.</param>
         public void Add(IMeasure item)
         {
             items.Add(item);
         }
 
+        /// <summary>
+        /// Удаляет элемент из группы.
+        /// </summary>
+        /// <param name="item">Элемент, имплементирующий интерфейс IMeasure.</param>
+        /// <returns>True, если элемент был успешно удален. Иначе False.</returns>
         public bool Remove(IMeasure item)
         {
             return items.Remove(item);
-        }
-
-        public IMeasure Get(int index)
-        {
-            if (index >= items.Count && index < 0)
-            {
-                return null;
-            }
-
-            return items[index];
         }
     }
 }
