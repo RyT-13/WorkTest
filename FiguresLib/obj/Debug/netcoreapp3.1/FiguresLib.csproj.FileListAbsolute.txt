@@ -1,0 +1,9 @@
+E:\PROG\с#\WorkTest\FiguresLib\bin\Debug\netcoreapp3.1\FiguresLib.deps.json
+E:\PROG\с#\WorkTest\FiguresLib\bin\Debug\netcoreapp3.1\FiguresLib.dll
+E:\PROG\с#\WorkTest\FiguresLib\bin\Debug\netcoreapp3.1\FiguresLib.pdb
+E:\PROG\с#\WorkTest\FiguresLib\obj\Debug\netcoreapp3.1\FiguresLib.csprojAssemblyReference.cache
+E:\PROG\с#\WorkTest\FiguresLib\obj\Debug\netcoreapp3.1\FiguresLib.csproj.CoreCompileInputs.cache
+E:\PROG\с#\WorkTest\FiguresLib\obj\Debug\netcoreapp3.1\FiguresLib.AssemblyInfoInputs.cache
+E:\PROG\с#\WorkTest\FiguresLib\obj\Debug\netcoreapp3.1\FiguresLib.AssemblyInfo.cs
+E:\PROG\с#\WorkTest\FiguresLib\obj\Debug\netcoreapp3.1\FiguresLib.dll
+E:\PROG\с#\WorkTest\FiguresLib\obj\Debug\netcoreapp3.1\FiguresLib.pdb
